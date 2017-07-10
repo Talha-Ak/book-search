@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="settings_order_by_labels">
+        <item>@string/settings_order_by_relevance_label</item>
+        <item>@string/settings_order_by_newest_label</item>
+    </string-array>
+    
+    <string-array name="settings_order_by_values">
+        <item>@string/settings_order_by_relevance_value</item>
+        <item>@string/settings_order_by_newest_value</item>
+    </string-array>
+
+
+    <string-array name="settings_print_type_labels">
+        <item>@string/settings_print_type_all_label</item>
+        <item>@string/settings_print_type_books_label</item>
+        <item>@string/settings_print_type_magazines_label</item>
+    </string-array>
+
+    <string-array name="settings_print_type_values">
+        <item>@string/settings_print_type_all_value</item>
+        <item>@string/settings_print_type_books_value</item>
+        <item>@string/settings_print_type_magazines_value</item>
+    </string-array>
+</resources>

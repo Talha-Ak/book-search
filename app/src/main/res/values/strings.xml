@@ -1,0 +1,62 @@
+<resources>
+
+    <string name="app_name">Book Search</string>
+
+    <!-- Text is displayed on button which allows users to search the Google Books API -->
+    <string name="search">Search</string>
+
+    <!-- Text is displayed as a hint to prompt user to search -->
+    <string name="search_books">Search Books</string>
+
+    <!-- Text is displayed when search did not find any books corresponding to user's query -->
+    <string name="no_books_found">No books were found.</string>
+
+    <!-- Text is displayed when there is no internet connection -->
+    <string name="no_internet">No internet connection.</string>
+
+    <!-- Text is displayed when app starts for the first time and there is no results -->
+    <string name="Search_for_a_book">Search for a book. Results will appear here.</string>
+
+    <string name="author">Author</string>
+    <string name="rating">Rating</string>
+    <string name="price">Price</string>
+    <string name="view_on_google">View On Google</string>
+    <string name="preview_this_book">Book Preview</string>
+
+    <!-- Text is displayed as an option in the menu -->
+    <string name="settings_menu_item">Settings</string>
+
+    <!-- Text is displayed in the app bar when in the settings screen -->
+    <string name="settings_title">Search Settings</string>
+
+    <!-- Strings for the Max Results settings -->
+    <string name="settings_max_results_label">Number of Results</string>
+    <string name="settings_max_results_key" translatable="false">max_results_picker</string>
+    <string name="settings_max_results_default" translatable="false">15</string>
+
+    <!-- Strings for the Order By setting, along with a label and value for each option -->
+    <string name="settings_order_by_label">Order By</string>
+    <string name="settings_order_by_key" translatable="false">order_by</string>
+    <string name="settings_order_by_default" translatable="false">@string/settings_order_by_relevance_value</string>
+
+    <string name="settings_order_by_relevance_label">Relevance</string>
+    <string name="settings_order_by_relevance_value" translatable="false">relevance</string>
+
+    <string name="settings_order_by_newest_label">Most Recent</string>
+    <string name="settings_order_by_newest_value" translatable="false">newest</string>
+
+    <!-- Strings for the Print Type settings, along with a label and value for each option -->
+    <string name="settings_print_type_label">Print Type</string>
+    <string name="settings_print_type_key" translatable="false">print_type</string>
+    <string name="settings_print_type_default" translatable="false">@string/settings_print_type_all_value</string>
+
+    <string name="settings_print_type_all_label">All types</string>
+    <string name="settings_print_type_all_value" translatable="false">all</string>
+
+    <string name="settings_print_type_books_label">Books only</string>
+    <string name="settings_print_type_books_value" translatable="false">books</string>
+
+    <string name="settings_print_type_magazines_label">Magazines only</string>
+    <string name="settings_print_type_magazines_value" translatable="false">magazines</string>
+
+</resources>

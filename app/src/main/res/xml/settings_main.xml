@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- The preference namespace contains our own custom attributes, which we defined in attrs.xml -->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:preference="http://schemas.android.com/apk/res-auto"
+    android:title="@string/settings_title">
+
+    <ListPreference
+        android:defaultValue="@string/settings_order_by_default"
+        android:entries="@array/settings_order_by_labels"
+        android:entryValues="@array/settings_order_by_values"
+        android:key="@string/settings_order_by_key"
+        android:title="@string/settings_order_by_label" />
+
+    <!-- The last 3 attributes are our own custom attributes, defined in attrs.xml -->
+    <com.example.talha.booksearch.NumberPickerPreference
+        android:defaultValue="@string/settings_max_results_default"
+        android:key="@string/settings_max_results_key"
+        android:title="@string/settings_max_results_label"
+        preference:maxValue="40"
+        preference:minValue="1"
+        preference:wrapSelectorWheel="false" />
+
+    <ListPreference
+        android:defaultValue="@string/settings_print_type_default"
+        android:entries="@array/settings_print_type_labels"
+        android:entryValues="@array/settings_print_type_values"
+        android:key="@string/settings_print_type_key"
+        android:title="@string/settings_print_type_label" />
+
+</PreferenceScreen>
