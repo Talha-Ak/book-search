@@ -24,6 +24,10 @@ import android.widget.TextView;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * NOTICE: This application was built prior to the introduction of RecyclerView, ViewModel,
+ * Android Jetpack etc. Some components (like {@link BookAdapter} and {@link BookLoader}) are outdated.
+ */
 public class MainActivity extends AppCompatActivity implements
         LoaderManager.LoaderCallbacks<List<Book>> {
 

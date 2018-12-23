@@ -23,6 +23,9 @@
     <string name="view_on_google">View On Google</string>
     <string name="preview_this_book">Book Preview</string>
 
+    <!-- Pretty cringy placeholder text that I did a few years ago for the detail_activity -->
+    <string name="dummy_text">Hey, thanks for taking your time to check out the code! I\'d appreciate if you could check if there\'s anywhere I could improve the app, that would be great. I\'m just filling up this space with rubbish so that this screen will be long enough to be able to scroll through in the preview panel. So… yeah. Any feedback you can give is welcome. I don\'t know what else to write here so I might just copy-paste some placeholder text to make it go the rest of the way.\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean pellentesque lectus eget porta maximus. Mauris quam ante, euismod eget ligula tincidunt, posuere maximus eros. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In finibus bibendum elit nec gravida.\n\nDoes anyone know what that actually means???</string>
+
     <!-- Text is displayed as an option in the menu -->
     <string name="settings_menu_item">Settings</string>
 

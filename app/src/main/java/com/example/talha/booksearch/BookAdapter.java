@@ -18,10 +18,13 @@ import java.text.DecimalFormat;
 import java.util.List;
 
 /**
+ * NOTICE: This application was built prior to RecyclerView, ViewModel & Android Jetpack was introduced.
+ * Some components (like this adapter and {@link BookLoader}) are outdated.
+ *
  * {@link BookAdapter} is an {@link ArrayAdapter} that can provide the layout for each list based
  * on a data source (in this instance the Google Books API), which is a list of {@link Book} objects.
  */
-public class BookAdapter extends ArrayAdapter<Book>{
+public class BookAdapter extends ArrayAdapter<Book> {
 
     /**
      * This is our own custom constructor (it doesn't mirror a superclass constructor).
